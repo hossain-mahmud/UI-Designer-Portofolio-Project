@@ -6,6 +6,8 @@
 :root {
     --poppins: 'Poppins', sans-serif;
     --brand_color: #EEBF63;
+    --secondary-color: #828282;
+    --primary-color:#151517;
 }
 
 /* ----- variables  link css part end ----- */
@@ -50,14 +52,14 @@ body {
     font-size: 22px;
     font-weight: 700;
     font-family: var(--poppins);
-    color: #151517;
+    color: var(--primary-color);
 }
 
 .nav-link {
     font-size: 16px;
     font-weight: 500;
     font-size: var(--poppins);
-    color: #151517;
+    color: var(--primary-color);
     position: relative;
 }
 .nav-link::after {
@@ -93,7 +95,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     font-family: var(--poppins);
-    color: #828282;
+    color: var(--secondary-color);
     margin-bottom: 16px;
 }
 .banner_head h2{
@@ -136,7 +138,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     font-family: var(--poppins);
-    color: #828282;
+    color: var(--secondary-color);
 }
 .banner_icon a{
     font-size: 20px;
@@ -160,8 +162,7 @@ body {
 .banner_buttons .mail_button a:hover{
     background: transparent;
     color: #676767;
-    border: 1px solid var(--brand_color);
-    transform: rotate(9deg);
+    border: 1px solid var(--brand_color); 
 }
 .banner_buttons .cv_button a{
     padding: 16px 22px;
@@ -176,13 +177,90 @@ body {
 .banner_buttons .cv_button a:hover{
     background: var(--brand_color);
     color: #fff;
-    transform: rotate(-9deg);
+}
+.banner_image{
+    width: 593px;
+}
+.banner_image {
+    width: 100%;
 }
 /* ----- banner css part end ----- */
-/* ===== fonts link css part start =====  */
+/* ===== intro css part start =====  */
+.intro_part{
+    width: 100%;
+    padding: 63px 65px;
+    background: #E9E9E9;
+    border-radius: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+.intro_image img{
+    border-radius: 30px;
+}
+.intro_counter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.project_count h2{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+}
+.project_count h2 span{
+    color: #8ED2A9;
+}
+.project_count p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--secondary-color);
+}
+.review_icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
-
-/* ----- fonts link css part end ----- */
+.review_icon ul{
+    display: flex;
+    gap: 3px;
+}
+.review_icon h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+}
+.review_icon ul li i{
+    color: var(--brand_color);
+}
+.intro_reviews p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--secondary-color);
+}
+.intro_help h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary-color);
+    padding: 70px 0 19px 0;
+}
+.intro_help p{
+    width: 399px;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+}
+/* ----- intro css part end ----- */
 /* ===== fonts link css part start =====  */
 
 
