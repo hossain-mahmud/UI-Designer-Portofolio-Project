@@ -1,23 +1,184 @@
 /* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
+/* ===== variables css part start =====  */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --brand_color: #EEBF63;
+}
 
+/* ----- variables  link css part end ----- */
+/* ===== common css part start =====  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
 
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
+a {
+    text-decoration: none;
+    display: inline-block;
+}
 
+ul,
+ol {
+    list-style: none;
+}
 
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    /* background: #F1F1F1; */
+}
 
-/* ----- fonts link css part end ----- */
+/* ----- common css part end ----- */
+/* ===== main menu css part start =====  */
+.nav_logo {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #151517;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    font-size: var(--poppins);
+    color: #151517;
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #EEBF63;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transition: all linear .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.navbar-nav {
+    gap: 40px;
+}
+
+.nav-link .active_menu {
+    color: #EEBF63;
+}
+/* ----- main menu css part end ----- */
+/* ===== banner css part start =====  */
+#banner{
+    padding: 42px 0 82px 0;
+}
+.banner_head{
+    position: relative;
+}
+.banner_head p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #828282;
+    margin-bottom: 16px;
+}
+.banner_head h2{
+    width: 450px;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+    margin-bottom: 15px;
+    
+}
+.banner_head h2 span{
+    color: var(--brand_color);
+}
+.banner_head_line{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.banner_head_line img{
+    width: 324px;
+}
+.banner_paragraph p {
+    width: 426px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+    margin: 41px 0 32px 0;
+}
+.banner_follow_button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 44px;
+}
+.banner_follow_button .follow_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #828282;
+}
+.banner_icon a{
+    font-size: 20px;
+    color: #676767;
+}
+.banner_buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.banner_buttons .mail_button a{
+    padding: 16px 28px;
+    background: var(--brand_color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #fff;
+    transition: all linear .3s;
+}
+.banner_buttons .mail_button a:hover{
+    background: transparent;
+    color: #676767;
+    border: 1px solid var(--brand_color);
+    transform: rotate(9deg);
+}
+.banner_buttons .cv_button a{
+    padding: 16px 22px;
+    border: 2px solid var(--brand_color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+    transition: all linear .3s;
+}
+.banner_buttons .cv_button a:hover{
+    background: var(--brand_color);
+    color: #fff;
+    transform: rotate(-9deg);
+}
+/* ----- banner css part end ----- */
 /* ===== fonts link css part start =====  */
 
 
