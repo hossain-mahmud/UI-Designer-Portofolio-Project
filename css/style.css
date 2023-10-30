@@ -346,11 +346,11 @@ body {
     color: #fff;
 }
 .project_item_image img{
-    width: 100%;
+    width: 540px;
     border-radius: 25px;
 }
 .project_item_head h3{
-    margin: 20px 0 10px 0;
+    margin: 20px 0px 10px 0px;
     font-size: 24px;
     font-weight: 600;
     font-family: var(--poppins);
@@ -362,7 +362,7 @@ body {
     gap: 50px;
     align-items: center;
 }
-.study_case_or_preview p{
+.study_case_or_preview a{
     font-size: 16px;
     font-weight: 500;
     font-family: var(--poppins);
@@ -381,12 +381,82 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
-
+.hire_card_image img{
+    width: 240px;
+}
+.hire_text{
+    text-align: center;
+}
+.hire_text h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+    padding: 27px 0px  3px 0px;
+}
+.hire_text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: var(--poppins);
+    color: #828282;
+}
 /* ----- hire me css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
+/* ===== interested css part start =====  */
+#interested{
+    padding-bottom: 100px;
+}
+.interested_part .row{
+    align-items: center;
+}
+.interested_part{
+    padding: 60px 85px;
+    background: var(--brand_color);
+    border-radius: 25px;
+}
+.interested_head h3{
+ width: 260px;
+ font-size: 35px;
+ font-weight: 600;
+ font-family: var(--poppins);
+ color: #fff;
+}
+.interested_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.interested_email a{
+    padding: 19px 25px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+    transition:  all linear .3s;
+}
+.interested_email a:hover{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.see_more a{
+    padding: 19px 25px;
+   border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    transition:  all linear .3s;
+}
+.see_more a:hover{
+    background: #fff;
+    color: #2F2F2F;
+}
+/* ----- interested css part end ----- */
 /* ===== fonts link css part start =====  */
 
 
