@@ -457,10 +457,26 @@ body {
     color: #2F2F2F;
 }
 /* ----- interested css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
+/* ===== brand logo css part start =====  */
+#brand_logo{
+    padding-bottom: 100px;
+}
+.brand_logo_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.logo_item{
+    font-size: 50px;
+    color: #828282;
+    transition: all linear .3s;
+}
+.logo_item:hover{
+    color: var(--primary-color);
+}
+/* ----- brand logo css part end ----- */
 /* ===== fonts link css part start =====  */
 
 
