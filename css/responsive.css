@@ -1,0 +1,94 @@
+/* extra small device responsive start */
+@media (max-width: 574.98px){
+/* ===== banner css part start =====  */
+#banner {
+	padding: 32px 0 65px 0;
+}
+.banner_head h2 {
+	width: 100%;
+	font-size: 29px;
+	line-height: 44px;
+}
+.banner_head_line img {
+	width: 250px;
+}
+.banner_paragraph p {
+	width: 100%;
+	font-size: 16px;
+}
+.banner_follow_button .follow_text p {
+	font-size: 16px;
+}
+.banner_icon a {
+	font-size: 18px;
+}
+.banner_buttons {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.banner_buttons .mail_button a {
+	padding: 10px 19px;
+	font-size: 15px;
+}
+.banner_buttons .cv_button a {
+	padding: 10px 19px;
+	font-size: 15px;
+}
+/* ----- banner css part end ----- */
+/* ===== intro css part start =====  */
+.intro_part {
+	width: 100%;
+	padding: 26px 22px;
+	gap: 20px;
+}
+.project_count h2 {
+	font-size: 40px;
+}
+.review_icon h2 {
+	font-size: 35px;
+}
+.intro_reviews p {
+	font-size: 20px;
+}
+.intro_help h2 {
+	font-size: 28px;
+	padding: 24px 0 7px 0;
+}
+.intro_help p {
+	width: 100%;
+	font-size: 15px;
+	line-height: 30px;
+}
+/* ----- intro css part end ----- */
+/* ===== project css part start =====  */
+#project {
+	padding: 45px 0;
+}
+.project_head {
+	gap: 20px;
+}
+.project_head_text h2 {
+	font-size: 28px;
+}
+.project_head_button a {
+	padding: 11px 19px;
+	font-size: 15px;
+}
+
+/* ----- project css part end ----- */
+/* ===== banner css part start =====  */
+
+
+
+
+
+/* ----- banner css part end ----- */
+/* ===== banner css part start =====  */
+
+
+
+
+
+/* ----- banner css part end ----- */
+    
+}

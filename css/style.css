@@ -42,10 +42,6 @@ ol {
     padding: 0;
 }
 
-body {
-    /* background: #F1F1F1; */
-}
-
 /* ----- common css part end ----- */
 /* ===== main menu css part start =====  */
 .nav_logo {
@@ -66,7 +62,8 @@ body {
 .nav-link::after {
     content: '';
     width: 0;
-    height: 1px;
+    height: 2px;
+    border-radius: 5px;
     background: #EEBF63;
     position: absolute;
     top: 80%;
@@ -618,7 +615,6 @@ body {
     background: #2F2F2F;
     border-radius: 5px;
 }
-
 /* ----- testimonial css part end ----- */
 /* ===== fonts link css part start =====  */
 
