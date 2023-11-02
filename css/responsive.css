@@ -74,21 +74,95 @@
 	padding: 11px 19px;
 	font-size: 15px;
 }
-
+.project_item_head h3 {
+	font-size: 21px;
+}
+.study_case_or_preview a {
+	font-size: 15px;
+}
+.project_footer {
+	gap: 13px;
+	margin-bottom: 25px;
+}
 /* ----- project css part end ----- */
-/* ===== banner css part start =====  */
+/* ===== hire me css part start =====  */
+#hire_me {
+	padding-bottom: 40px;
+}
+.hire_me_head h2 {
+	font-size: 28px;
+}
+.hire_text h3 {
+	font-size: 21px;
+}
+.hire_text p {
+	font-size: 17px;
+}
+/* ----- hire me css part end ----- */
+/* ===== interested css part start =====  */
+#interested {
+	padding-bottom: 40px;
+}
+.interested_part {
+	padding: 24px 22px;
+}
+.interested_head h3 {
+	width: 100%;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.interested_buttons {
+	justify-content: center;
+	gap: 20px;
+}
+.interested_email a {
+	padding: 11px 13px;
+	font-size: 18px;
+}
+.see_more a {
+	padding: 11px 13px;
+	font-size: 18px;
+}
+/* ----- interested css part end ----- */
+/* ===== brand logo css part start =====  */
+#brand_logo {
+	padding-bottom: 30px;
+}
+.brand_logo_items {
+	gap: 0;
+	column-gap: 17px;
+}
+.logo_item {
+	font-size: 37px;
+}
+/* ----- brand logo css part end ----- */
+/* ===== testimonial css part start =====  */
+#testimonial {
+	padding: 40px 0;
+}
+.testimonial_head h2 {
+	width: 100%;
+	font-size: 28px;
+}
+.testimonial_card_text p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.testimonial_card_item {
+    width: 100%;
+}
+.testimonial_clients {
+    flex-wrap: wrap;
+	gap:10px;
+}
+
+/* ----- testimonial css part end ----- */
+/* ===== interested css part start =====  */
 
 
 
 
 
-/* ----- banner css part end ----- */
-/* ===== banner css part start =====  */
-
-
-
-
-
-/* ----- banner css part end ----- */
+/* ----- interested css part end ----- */
     
 }

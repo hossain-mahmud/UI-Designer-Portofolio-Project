@@ -45,7 +45,7 @@ $('.testimonial_cards').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 575,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
