@@ -616,19 +616,38 @@ ol {
     border-radius: 5px;
 }
 /* ----- testimonial css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start =====  */
-
-
-/* ----- fonts link css part end ----- */
+/* ===== footer css part start =====  */
+#footer{
+    padding: 30px 0;
+}
+.footer_texts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.item h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+}
+.item ul{
+    display: flex;
+    gap: 15px;
+}
+.item ul li a{
+    font-size: 30px;
+    color: var(--secondary-color);
+    transition:  all linear .3s;
+}
+.item ul li a:hover{
+    color: var(--brand_color);
+}
+.back_top_button a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #2F2F2F;
+}
+/* ----- footer css part end ----- */
